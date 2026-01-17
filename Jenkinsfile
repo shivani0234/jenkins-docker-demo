@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shivani121/apache-custom"
+        IMAGE_NAME = "shiviani121/dockerfile"
         IMAGE_TAG = "latest"
         DOCKER_CREDS = "dockerfile__cred"  // your Jenkins credential ID
     }
