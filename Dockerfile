@@ -1,7 +1,4 @@
-FROM node:14
-
+FROM python:3.9-slim
 WORKDIR /app
-
-COPY . .
-
-CMD ["node", "app.js"]
+COPY app.py .
+CMD ["python", "app.py"]
