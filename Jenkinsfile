@@ -1,10 +1,12 @@
 pipeline {
     agent any
 
-    environment {
-        IMAGE_NAME = "shivani0234/jenkins-demo"
-        IMAGE_TAG = "latest"
-        DOCKER_CREDS = "dockerfile__cred"  // Use your actual Jenkins credentials ID here
+   environment {
+    IMAGE_NAME = "shiviani121/apache-custom"
+    IMAGE_TAG = "latest"
+    DOCKER_CREDS = "dockerfile__cred"  // your Jenkins credential ID
+}
+
     }
 
     stages {
